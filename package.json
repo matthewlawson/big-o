@@ -1,0 +1,29 @@
+{
+  "name": "big-o",
+  "version": "1.0.0",
+  "description": "Making Lyst BigO slides",
+  "main": "index.js",
+  "dependencies": {
+    "styled-components": "^4.3.1"
+  },
+  "devDependencies": {
+    "mdx-deck": "^2.3.2",
+    "mdx-deck-code-surfer": "^0.5.5",
+    "raw-loader": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo 'no tests'",
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewlawson/big-o.git"
+  },
+  "author": "Matthew Lawson <matthew.lawson@ly.st>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewlawson/big-o/issues"
+  },
+  "homepage": "https://github.com/matthewlawson/big-o#readme"
+}
