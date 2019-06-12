@@ -214,7 +214,7 @@ function printPairs(a) {
 ---
 
 ```javascript
-function printAndrepeatPairs(a) {
+function printAndRepeatPairs(a) {
   for (let k = 0; k < 10000; k++) {
     for (let i = 0; i < a.length; i++) {
       for (let j = 0; j < a.length; j++) {
@@ -242,13 +242,11 @@ function printAndrepeatPairs(a) {
 
 ---
 
-`// a is an unsorted array of ints`
-
 ```javascript
 function printMax(a) {
   let max = 0;
   for (let i = 0; i < a.length; i++) {
-    Math.max(max, a[i]); // constant time
+    max = Math.max(max, a[i]); // constant time
   }
   return max;
 }
@@ -261,11 +259,13 @@ function printMax(a) {
 }
 ```
 
-<Appear>
-  <h4>#1 is O(n) ✅</h4>
-  <h4>sort functions are typically O(n log n) ✅</h4>
-  <h4>O(n) less than O(n log n) so #1 is quicker ✅</h4>
-</Appear>
+<ul>
+  <Appear>
+    <li>#1 is O(n) ✅</li>
+    <li>sort functions are typically O(n log n) ✅</li>
+    <li>O(n) less than O(n log n) so #1 is quicker ✅</li>
+  </Appear>
+</ul>
 
 ---
 
