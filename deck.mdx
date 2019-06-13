@@ -94,7 +94,7 @@ Bonus rule: not everything has to be expressed as "n". Different variables need 
 ---
 
 ```javascript
-function iterate(a) {
+function iterateAndPrintPairs(a) {
   for (let i = 0; i < a.length; i++) {
     console.log(a[i]);
   }
@@ -157,23 +157,6 @@ function linearSearch(terms, searchTerm) {
 <Appear>
   <h4>O(n) ✅</h4>
   <h4>We need to take into consideration library functions too</h4>
-</Appear>
-
----
-
-```javascript
-/**
- *  Map<string, string> termMap
- *  String searchTerm
- * */
-function linearSearch(termMap, searchTerm) {
-  return termMap.get(searchTerm);
-}
-```
-
-<Appear>
-  <h4>O(1) ✅</h4>
-  <h4>Map lookups are O(1)</h4>
 </Appear>
 
 ---
