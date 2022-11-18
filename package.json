@@ -7,7 +7,7 @@
     "styled-components": "^4.3.1"
   },
   "devDependencies": {
-    "mdx-deck": "^2.3.2",
+    "mdx-deck": "^4.1.1",
     "mdx-deck-code-surfer": "^0.5.5",
     "raw-loader": "^3.0.0"
   },
